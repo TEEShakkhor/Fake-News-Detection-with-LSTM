@@ -1,13 +1,9 @@
 
 # Fake news detection with Naive Bayes, Logistic regression, Decision tree and LSTM
 
----
-
 ## Overview
 
 The **Fake News Detection project** is a machine learning endeavor aimed at identifying and classifying news articles as either real or fake. The project utilizes various algorithms, including **Naive Bayes, Logistic Regression, Decision Tree, and LSTM Neural Network**, to achieve accurate and reliable results. By leveraging a diverse set of models, the project provides a comprehensive approach to addressing the challenge of misinformation in the digital age.
-
-----
 
 ## Project Structure
 
@@ -26,8 +22,6 @@ The project is organized into distinct components, each serving a crucial role i
 3. **Model Testing:**
    - Testing the trained models on unseen input for real-time detection.
    - Providing a script for users to input their own news text and receive predictions.
-
----
 
 ## Setup Instructions
 
@@ -70,7 +64,7 @@ Install the required packages from the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
 ```
----
+
 
 ## Documentation
 
@@ -128,7 +122,7 @@ from keras.preprocessing.sequence import pad_sequences
 
 Users can test the models on their own input for real-time fake news detection. The provided scripts guide users through the process, ensuring seamless and accessible testing.
 
----
+
 
 ## Conclusion
 
